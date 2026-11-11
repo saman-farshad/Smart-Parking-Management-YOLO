@@ -1,0 +1,18 @@
+__pycache__/
+.venv/
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+config/*.json
+*.pt
+
+# Parking configuration
+!config/parking_spaces.json
+
+# Selected demo outputs
+!outputs/improved_run/
+outputs/improved_run/*
+!outputs/improved_run/result.png
+!outputs/improved_run/parking_events.csv
+!outputs/improved_run/hourly_count.csv

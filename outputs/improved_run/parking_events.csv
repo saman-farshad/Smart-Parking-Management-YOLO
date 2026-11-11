@@ -1,0 +1,11 @@
+time,event,space,track_id,duration_seconds
+2026-11-11T20:26:03,parked,P1,49,
+2026-11-11T20:26:03,parked,P2,59,
+2026-11-11T20:26:03,parked,P3,48,
+2026-11-11T20:26:03,parked,P4,9,
+2026-11-11T20:26:03,parked,P5,23,
+2026-11-11T20:26:17,still_parked_at_end,P1,49,14.4
+2026-11-11T20:26:17,still_parked_at_end,P2,59,14.4
+2026-11-11T20:26:17,still_parked_at_end,P3,48,14.4
+2026-11-11T20:26:17,still_parked_at_end,P4,9,14.4
+2026-11-11T20:26:17,still_parked_at_end,P5,23,14.4
