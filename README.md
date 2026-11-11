@@ -2,6 +2,15 @@
 ## Project Demo
 
 ![Smart Parking YOLO11 Detection](outputs/improved_run/result.png)
+## Run the Demo
+
+Place a fixed-camera parking video at `data/parking.mp4`. The saved parking-space coordinates are calibrated for the original demo video.
+
+```powershell
+python parking_manager.py --video data/parking.mp4 --config config/parking_spaces.json --model yolo11s.pt --output outputs/improved_run --no-show
+```
+
+Results are saved in `outputs/improved_run/`: processed video, parking events CSV, and hourly counts CSV. For a different camera view, configure the parking spaces again using `configure_spaces.py`.
 **Stack:** OpenCV, a pretrained Ultralytics YOLO detector and ByteTrack, Pandas.  
 **Goal:** Detect cars in a **fixed-camera** parking view, assign vehicles to marked spaces, estimate space-level parking duration and report arrival counts by hour.
 
