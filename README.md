@@ -1,5 +1,7 @@
 # Smart Parking Management (Junior CV Project)
+## Project Demo
 
+![Smart Parking YOLO11 Detection](outputs/improved_run/result.png)
 **Stack:** OpenCV, a pretrained Ultralytics YOLO detector and ByteTrack, Pandas.  
 **Goal:** Detect cars in a **fixed-camera** parking view, assign vehicles to marked spaces, estimate space-level parking duration and report arrival counts by hour.
 
